@@ -16,7 +16,7 @@ terraform {
 }
 
 resource "aws_instance" "sai-inst" {
-  count = 2
+  count = 1
   ami = "ami-06abd2056542057e1"
   instance_type = "t2.micro"
 }
